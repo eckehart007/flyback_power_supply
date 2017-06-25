@@ -1,6 +1,10 @@
-update=25/06/2017 01:16:04
+update=25/06/2017 01:50:36
 version=1
-last_client=kicad
+last_client=eeschema
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,11 +27,9 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=../../kicad-library/library;../../EgertKicad_lib
+LibDir=../../EgertKicad_lib/EgertKiCad_lib.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,7 +60,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Elektroonika/kicad-library/library/power
-LibName31=C:/Elektroonika/kicad-library/library/Power_Management
-LibName32=C:/Elektroonika/kicad-library/library/powerint
-LibName33=C:/Elektroonika/EgertKicad_lib/Egert
+LibName30=Power_Management
+LibName31=powerint
+LibName32=C:/Elektroonika/EgertKicad_lib/Egert
