@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Elektroonika\flyback_power_supply\flyback_power_supply\noname.sch</source>
+    <date>06/08/2017 19:33:23</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>noname.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>10R / 2W / Wirewound Resistors</value>
+      <footprint>Resistors_ThroughHole:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical</footprint>
+      <datasheet>http://www.mouser.com/ds/2/414/WP-S-461170.pdf</datasheet>
+      <fields>
+        <field name="Source">http://www.mouser.ee/ProductDetail/Yageo/KNP2WSJR-73-10R/?qs=sGAEpiMZZMtbXrIkmrvidDvXk7Sb077u3iu9nJqgdsY%3d</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594E9953</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse</value>
+      <footprint>Varistors:RV_Disc_D7_W5.5_P5</footprint>
+      <datasheet>http://www.mouser.com/ds/2/427/ptccl265vseries-109202.pdf</datasheet>
+      <fields>
+        <field name="Source">http://www.mouser.ee/ProductDetail/Vishay/PTCCL05H630HBE/?qs=%2fha2pyFaduhe5MnjzSnUuqgECKBNFzw%252bCXjAzFqnpFOVPihHyum5eg%3d%3d</field>
+      </fields>
+      <libsource lib="device" part="Polyfuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594EA108</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>Varistor, 275VAC,350DC</value>
+      <footprint>Varistors:RV_Disc_D9_W4.4_P5</footprint>
+      <datasheet>http://www.mouser.ee/ProductDetail/EPCOS-TDK/B72207S0271K101/?qs=sGAEpiMZZMv1TUPJeFpwbucm%252bzz%2f10ZzRDGwdayLxmY%3d</datasheet>
+      <fields>
+        <field name="Ordering">http://www.mouser.com/ds/2/400/SIOV_Leaded_AdvanceD-525613.pdf</field>
+      </fields>
+      <libsource lib="device" part="Varistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594EA24D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X02</value>
+      <footprint>Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594EA38F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2u2 / 400V</value>
+      <footprint>Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/445/860021373003-1075091.pdf</datasheet>
+      <fields>
+        <field name="Source">http://www.mouser.ee/ProductDetail/Wurth-Electronics/860021373003/?qs=sGAEpiMZZMvwFf0viD3Y3aZipiehufnXLngkzjvaW3U0WX6LveVDFQ%3d%3d</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594EC1D0</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LNK363D</value>
+      <footprint>Power_Integrations:SO-8C</footprint>
+      <datasheet>http://www.mouser.ee/ProductDetail/Power-Integrations/LNK362DN-TL/?qs=sGAEpiMZZMupfmEBr0XgrAMMoomb%252bZPRaYNH1HGb%252bYI%3d</datasheet>
+      <libsource lib="powerint" part="LNK363D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594ED150</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF / 16V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594EDC3F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LTV-817</value>
+      <footprint>Housings_SOIC:SO-4_4.4x3.6mm_Pitch2.54mm</footprint>
+      <libsource lib="opto" part="LTV-817"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594EDF65</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>FlyBckTransformer</value>
+      <footprint>EgertKiCad_lib:Flybck_Transformer_M74001</footprint>
+      <datasheet>http://docs-europe.electrocomponents.com/webdocs/13eb/0900766b813ebf8b.pdf</datasheet>
+      <fields>
+        <field name="Source">https://octopart.com/74001-myrra-12177534</field>
+        <field name="Price">0.7-2.9€</field>
+      </fields>
+      <libsource lib="Egert" part="FlyBckTransformer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594EECD0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2n2</value>
+      <footprint>Capacitors_ThroughHole:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/product-72298.pdf</datasheet>
+      <fields>
+        <field name="Source">http://www.mouser.ee/ProductDetail/Murata-Electronics/DEJE3E2222ZA3B/?qs=sGAEpiMZZMt1mVBmZSXTPEZzxJbZaR64cc31pfWZGVI%3d</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594FB78C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.mouser.com/ds/2/115/ds30086-60872.pdf</datasheet>
+      <fields>
+        <field name="Source">http://www.mouser.ee/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMvilazpv%252bFqvbevgE8TPEOt</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594FE4C5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1000u</value>
+      <footprint>Capacitors_ThroughHole:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/231/lelon_REA[1]-341020.pdf</datasheet>
+      <fields>
+        <field name="Source">http://www.mouser.ee/ProductDetail/Lelon/REA102M1ABK-1012P/?qs=sGAEpiMZZMvwFf0viD3Y3fqH3L9WtgZDkxTegAsLZH0%3d</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594FE76B</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>3u3</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>http://www.mouser.com/ds/2/396/mlci03_e-10617.pdf</datasheet>
+      <fields>
+        <field name="Source">http://www.mouser.ee/ProductDetail/Taiyo-Yuden/CKP2012N3R3M-T/?qs=sGAEpiMZZMsg%252by3WlYCkU5iuzh4MJmq0trv77hNXt%2fo%3d</field>
+      </fields>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594FE92E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="Source">http://www.mouser.ee/ProductDetail/Murata-Electronics/GRM31CD80J107ME39K/?qs=sGAEpiMZZMs0AnBnWHyRQB9G40cLJQs44On8N5ns2oiE5Fin07Sg4g%3d%3d</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594FF929</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X02</value>
+      <footprint>Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5950077D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Zener</value>
+      <footprint>Diodes_SMD:D_SOD-323F</footprint>
+      <datasheet>http://www.mouser.com/ds/2/149/MM3Z10VB-889643.pdf</datasheet>
+      <fields>
+        <field name="Source">http://www.mouser.ee/ProductDetail/Fairchild-Semiconductor/MM3Z2V4B/?qs=sGAEpiMZZMtQ8nqTKtFS%2fJarVDDdIXV3M7tsWMaXE2o%3d</field>
+      </fields>
+      <libsource lib="device" part="D_Zener"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59503132</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595032E9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MB8S</value>
+      <footprint>EgertKiCad_lib:SOIC-4</footprint>
+      <datasheet>http://www.mouser.ee/ProductDetail/Fairchild-Semiconductor/MB6S/?qs=sGAEpiMZZMtQ8nqTKtFS%2fLDhWhDI65nsM5pfIld1Hhg%3d</datasheet>
+      <libsource lib="device" part="D_Bridge_+-AA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5987150B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Bridge_+-AA">
+      <description>Diode bridge (pins: 1=+, 2=-, 3=AC, 4=AC)</description>
+      <footprints>
+        <fp>D?Bridge*</fp>
+        <fp>D?Rectifier*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Bridge_+-AA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Zener">
+      <description>Zener Diode</description>
+      <docs>https://en.wikipedia.org/wiki/Zener_diode</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Egert" part="FlyBckTransformer">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">FlyBckTransformer</field>
+        <field name="Footprint">EgertKiCad_lib:Flybck_Transformer_M74001</field>
+        <field name="Datasheet">http://docs-europe.electrocomponents.com/webdocs/13eb/0900766b813ebf8b.pdf</field>
+        <field name="Source">https://octopart.com/74001-myrra-12177534</field>
+        <field name="Price">0.7-2.9€</field>
+      </fields>
+      <pins>
+        <pin num="1" name="0V" type="power_out"/>
+        <pin num="2" name="+AUX" type="power_out"/>
+        <pin num="4" name="DRAIN" type="power_out"/>
+        <pin num="6" name="+E" type="power_in"/>
+        <pin num="9" name="+S1" type="power_out"/>
+        <pin num="10" name="0V" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="powerint" part="LNK362D">
+      <aliases>
+        <alias>LNK363D</alias>
+        <alias>LNK364D</alias>
+      </aliases>
+      <description>LinkSwitch-XT Family, 2.6W Output Power, SO-8C</description>
+      <docs>http://www.powerint.com/sites/default/files/product-docs/lnk362-364.pdf</docs>
+      <footprints>
+        <fp>SO-8C*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LNK362D</field>
+        <field name="Footprint">Power_Integrations:SO-8C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BP" type="input"/>
+        <pin num="2" name="FB" type="input"/>
+        <pin num="4" name="D" type="openCol"/>
+        <pin num="5" name="S" type="openEm"/>
+        <pin num="6" name="S" type="openEm"/>
+        <pin num="7" name="S" type="openEm"/>
+        <pin num="8" name="S" type="openEm"/>
+      </pins>
+    </libpart>
+    <libpart lib="opto" part="LTV-817">
+      <description>DC Optocoupler, Vce 35V, CTR 50%, DIP-4</description>
+      <docs>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTV-817</field>
+        <field name="Footprint">Housings_DIP:DIP-4_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Polyfuse">
+      <description>resettable fuse, polymeric positive temperature coefficient (PPTC)</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="opto">
+      <uri>C:\Program Files\KiCad\share\kicad\library\opto.lib</uri>
+    </library>
+    <library logical="Egert">
+      <uri>C:\Elektroonika\EgertKicad_lib\Egert.lib</uri>
+    </library>
+    <library logical="powerint">
+      <uri>C:\Program Files\KiCad\share\kicad\library\powerint.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C5-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="2" name="Net-(T1-Pad4)">
+      <node ref="U1" pin="4"/>
+      <node ref="T1" pin="4"/>
+    </net>
+    <net code="3" name="Net-(D2-Pad2)">
+      <node ref="T1" pin="9"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(T1-Pad1)">
+      <node ref="T1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D3-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="6" name="Net-(T1-Pad2)">
+      <node ref="T1" pin="2"/>
+    </net>
+    <net code="7" name="GNDA">
+      <node ref="C4" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="T1" pin="10"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C4-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="11" name="/2">
+      <node ref="R1" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="12" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="13" name="/1">
+      <node ref="R1" pin="2"/>
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="14" name="/3">
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="4"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="15" name="/5">
+      <node ref="C3" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="T1" pin="6"/>
+    </net>
+  </nets>
+</export>

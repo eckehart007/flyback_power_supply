@@ -1,0 +1,38 @@
+Title,
+Revision,
+Date,
+Generated,06/08/2017 19:33:23
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,18
+Total Unique Parts,17
+
+
+
+Ref,Qty,Value,Footprint,Ordering,Price,Source,
+C1 ,1,2u2 / 400V,Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm, , ,http://www.mouser.ee/ProductDetail/Wurth-Electronics/860021373003/?qs=sGAEpiMZZMvwFf0viD3Y3aZipiehufnXLngkzjvaW3U0WX6LveVDFQ%3d%3d
+C2 ,1,100nF / 16V,Capacitors_SMD:C_0603, , , 
+C3 ,1,2n2,Capacitors_ThroughHole:C_Rect_L10.0mm_W4.0mm_P7.50mm_MKS4, , ,http://www.mouser.ee/ProductDetail/Murata-Electronics/DEJE3E2222ZA3B/?qs=sGAEpiMZZMt1mVBmZSXTPEZzxJbZaR64cc31pfWZGVI%3d
+C4 ,1,1000u,Capacitors_ThroughHole:CP_Radial_D10.0mm_P5.00mm, , ,http://www.mouser.ee/ProductDetail/Lelon/REA102M1ABK-1012P/?qs=sGAEpiMZZMvwFf0viD3Y3fqH3L9WtgZDkxTegAsLZH0%3d
+C5 ,1,100u,Capacitors_SMD:C_1206, , ,http://www.mouser.ee/ProductDetail/Murata-Electronics/GRM31CD80J107ME39K/?qs=sGAEpiMZZMs0AnBnWHyRQB9G40cLJQs44On8N5ns2oiE5Fin07Sg4g%3d%3d
+D1 ,1,MB8S,EgertKiCad_lib:SOIC-4, , , 
+D2 ,1,D,Diodes_SMD:D_SOD-123, , ,http://www.mouser.ee/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMvilazpv%252bFqvbevgE8TPEOt
+D3 ,1,D_Zener,Diodes_SMD:D_SOD-323F, , ,http://www.mouser.ee/ProductDetail/Fairchild-Semiconductor/MM3Z2V4B/?qs=sGAEpiMZZMtQ8nqTKtFS%2fJarVDDdIXV3M7tsWMaXE2o%3d
+F1 ,1,Polyfuse,Varistors:RV_Disc_D7_W5.5_P5, , ,http://www.mouser.ee/ProductDetail/Vishay/PTCCL05H630HBE/?qs=%2fha2pyFaduhe5MnjzSnUuqgECKBNFzw%252bCXjAzFqnpFOVPihHyum5eg%3d%3d
+J1 J2 ,2,CONN_01X02,Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol, , , 
+L1 ,1,3u3,Resistors_SMD:R_0805, , ,http://www.mouser.ee/ProductDetail/Taiyo-Yuden/CKP2012N3R3M-T/?qs=sGAEpiMZZMsg%252by3WlYCkU5iuzh4MJmq0trv77hNXt%2fo%3d
+R1 ,1,10R / 2W / Wirewound Resistors,Resistors_ThroughHole:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical, , ,http://www.mouser.ee/ProductDetail/Yageo/KNP2WSJR-73-10R/?qs=sGAEpiMZZMtbXrIkmrvidDvXk7Sb077u3iu9nJqgdsY%3d
+R2 ,1,R,Resistors_SMD:R_0603, , , 
+RV1 ,1,Varistor, 275VAC,350DC,Varistors:RV_Disc_D9_W4.4_P5,http://www.mouser.com/ds/2/400/SIOV_Leaded_AdvanceD-525613.pdf, , 
+T1 ,1,FlyBckTransformer,EgertKiCad_lib:Flybck_Transformer_M74001, ,0.7-2.9€,https://octopart.com/74001-myrra-12177534
+U1 ,1,LNK363D,Power_Integrations:SO-8C, , , 
+U2 ,1,LTV-817,Housings_SOIC:SO-4_4.4x3.6mm_Pitch2.54mm, , , 
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated 06/08/2017 19:33:23
